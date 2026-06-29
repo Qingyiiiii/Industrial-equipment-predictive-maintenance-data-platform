@@ -1,0 +1,15 @@
+pyspark>=3.5.0  # VM验收入口为Rocky 9 / Python 3.9 / JDK17；Spark作业优先用spark-submit
+pyarrow>=12.0.0
+pandas>=1.5.0
+numpy>=1.23.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+scikit-learn>=1.2.0
+pyyaml>=6.0
+
+booktype
+kafka-python
+redis>=4.5.0
+fastapi
+uvicorn>=0.30.0
+pyecharts>=2.0.0

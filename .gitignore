@@ -1,0 +1,87 @@
+# Local IDE and agent state
+.idea/
+.vscode/
+*.iml
+.agents/
+.codex/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python runtime and virtual environments
+__pycache__/
+*.py[cod]
+*.pyc.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Build and package outputs
+build/
+dist/
+*.egg-info/
+target/
+*.jar
+*.zip
+*.tar
+*.tar.gz
+*.7z
+Optimize/
+
+# Raw datasets and local dataset copies
+# The MetroPT-3 raw files should be downloaded from the official source listed in README.
+/datas/
+/metropt_quality/
+**/MetroPT3_AirCompressor.csv
+**/Data Description_Metro.pdf
+**/Data_Description_Metro.pdf
+*.csv
+
+# Large/generated data formats
+*.parquet
+*.orc
+*.avro
+*.delta/
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime logs, validation run outputs, and generated local artifacts
+*.log
+*.out
+*.err
+*.pid
+data/metropt_quality/logs/
+data/metropt_quality/p1_logs/
+data/metropt_quality/realtime_logs/
+data/metropt_quality/validation_runs/
+data/metropt_quality/delivery_reports/
+data/metropt_quality/samples/
+data/metropt_quality/analysis/logs/
+data/metropt_quality/analysis/figures/
+data/metropt_quality/analysis/models/
+data/metropt_quality/analysis/reports/analysis_input_validation_*.json
+
+# Generated delivery packages are reproducible and should be rebuilt locally when needed.
+data/metropt_quality/delivery_packages/*/
+!data/metropt_quality/delivery_packages/README.md
+!data/metropt_quality/delivery_packages/README_zh.md
+!data/metropt_quality/delivery_packages/README_en.md
+
+# Local backups and temporary files
+*.bak
+*.bak.*
+*.yaml.bak.*
+*.backup
+*.tmp
+*.temp
+*.swp
+*.swo
+~$*

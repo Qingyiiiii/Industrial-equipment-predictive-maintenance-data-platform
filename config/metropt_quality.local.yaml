@@ -1,0 +1,70 @@
+# MetroPT-3 air-compressor predictive-maintenance dataset - local config
+
+project:
+  domain: "metropt_quality"
+
+metropt:
+  dataset_name: "MetroPT-3 Dataset"
+  dataset_url: "https://archive.ics.uci.edu/dataset/791/metropt+3+dataset"
+  expected_rows: 1516948
+  window_minutes: 1
+  failure_windows: "2020-04-18 00:00:00|2020-04-18 23:59:59|air_leak_high_stress;2020-05-29 23:30:00|2020-05-30 06:00:00|air_leak_high_stress;2020-06-05 10:00:00|2020-06-07 14:30:00|air_leak_high_stress;2020-07-15 14:30:00|2020-07-15 19:00:00|air_leak_high_stress"
+
+paths:
+  input_csv: "./datas/MetroPT3_AirCompressor.csv"
+  data_description_pdf: "./datas/Data Description_Metro.pdf"
+  profile_dir: "./data/metropt_quality/profile"
+  ods_readings_parquet: "./data/metropt_quality/ods/readings"
+  dwd_sensor_long: "./data/metropt_quality/dwd/sensor_long"
+  dws_overall_kpi: "./data/metropt_quality/dws/overall_kpi"
+  dws_window_kpi: "./data/metropt_quality/dws/window_kpi"
+  dws_sensor_kpi: "./data/metropt_quality/dws/sensor_kpi"
+
+spark:
+  mode: "local"
+  master: "local[*]"
+  timezone: "Asia/Shanghai"
+  shuffle_partitions: 32
+  enable_hive_support: false
+  csv_read:
+    mode: "PERMISSIVE"
+  extra_conf: {}
+
+hive:
+  metastore_uris: "thrift://hadoop1:9083"
+  warehouse_dir: "hdfs:///user/hive/warehouse"
+  database: "metropt_quality"
+  ods_readings_table: "ods_metropt_readings"
+  dwd_sensor_table: "dwd_metropt_sensor_long"
+  dws_overall_table: "dws_metropt_overall_kpi"
+  dws_window_table: "dws_metropt_window_kpi"
+  dws_sensor_table: "dws_metropt_sensor_kpi"
+  ods_realtime_table: "ods_metropt_realtime_readings"
+  dws_realtime_table: "dws_metropt_realtime_kpi_1min"
+  dws_realtime_risk_table: "dws_metropt_realtime_risk_events"
+  pbi_window_view: "vw_pbi_metropt_window_kpi"
+  pbi_sensor_view: "vw_pbi_metropt_sensor_kpi"
+  pbi_realtime_view: "vw_pbi_metropt_realtime_kpi_1m"
+
+iceberg:
+  enable: false
+  catalog: "lakehouse"
+  database: "metropt_quality_iceberg"
+  table_format_version: 2
+
+doris:
+  database: "metropt_quality_olap"
+
+realtime:
+  replay_source_csv: "./datas/MetroPT3_AirCompressor.csv"
+  kafka_bootstrap_servers: "192.168.88.101:9092,192.168.88.102:9092,192.168.88.103:9092"
+  kafka_topic: "metropt.ods.compressor.reading.v1"
+  kafka_dlq_topic: "metropt.ods.compressor.reading.dlq.v1"
+  kafka_startup_mode: "group-offsets"
+  redis_url: "redis://192.168.88.101:6379/0"
+  redis_kpi_key_prefix: "metropt:kpi:1m"
+  redis_kpi_ttl_seconds: 7200
+  redis_risk_key_prefix: "metropt_quality:risk:latest"
+  redis_risk_ttl_seconds: 7200
+  replay_batch_size: 500
+  replay_rate: 100

@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "check_error": "",
+      "exists": true,
+      "key": "input_csv",
+      "label": "Raw MetroPT CSV",
+      "path": "hdfs:///lakehouse/projects/metropt_quality/raw/MetroPT3_AirCompressor.csv",
+      "producer": "python src/00_metropt_preflight.py",
+      "required_for": "light validation"
+    },
+    {
+      "check_error": "",
+      "exists": true,
+      "key": "profile_dir",
+      "label": "Profile output directory",
+      "path": "hdfs:///lakehouse/projects/metropt_quality/profile",
+      "producer": "spark-submit src/01_metropt_profile.py",
+      "required_for": "profile review"
+    },
+    {
+      "check_error": "",
+      "exists": true,
+      "key": "ods_readings_parquet",
+      "label": "ODS readings Parquet",
+      "path": "hdfs:///lakehouse/projects/metropt_quality/ods/readings",
+      "producer": "spark-submit src/02_metropt_csv_to_parquet.py",
+      "required_for": "data quality analysis"
+    },
+    {
+      "check_error": "",
+      "exists": true,
+      "key": "dwd_sensor_long",
+      "label": "DWD sensor long Parquet",
+      "path": "hdfs:///lakehouse/projects/metropt_quality/dwd/sensor_long",
+      "producer": "spark-submit src/03_metropt_dwd_sensor_long.py",
+      "required_for": "sensor and failure-window analysis"
+    },
+    {
+      "check_error": "",
+      "exists": true,
+      "key": "dws_overall_kpi",
+      "label": "DWS overall KPI Parquet",
+      "path": "hdfs:///lakehouse/projects/metropt_quality/dws/overall_kpi",
+      "producer": "spark-submit src/04_metropt_kpi_calc.py",
+      "required_for": "overall KPI review"
+    },
+    {
+      "check_error": "",
+      "exists": true,
+      "key": "dws_window_kpi",
+      "label": "DWS window KPI Parquet",
+      "path": "hdfs:///lakehouse/projects/metropt_quality/dws/window_kpi",
+      "producer": "spark-submit src/04_metropt_kpi_calc.py",
+      "required_for": "multidimensional analysis and modeling"
+    },
+    {
+      "check_error": "",
+      "exists": true,
+      "key": "dws_sensor_kpi",
+      "label": "DWS sensor KPI Parquet",
+      "path": "hdfs:///lakehouse/projects/metropt_quality/dws/sensor_kpi",
+      "producer": "spark-submit src/04_metropt_kpi_calc.py",
+      "required_for": "sensor KPI analysis"
+    }
+  ],
+  "config": "/home/common/tmp/pycharm_Design/config/metropt_quality.cluster.yaml",
+  "full_analysis_ready": true,
+  "missing_full_inputs": []
+}

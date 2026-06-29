@@ -1,0 +1,16 @@
+sensor_name	sensor_type	rows_in_long_table
+caudal_impulses	digital	1516948
+comp	digital	1516948
+dv_electric	digital	1516948
+dv_pressure	analog	1516948
+h1	analog	1516948
+lps	digital	1516948
+motor_current	analog	1516948
+mpg	digital	1516948
+oil_level	digital	1516948
+oil_temperature	analog	1516948
+pressure_switch	digital	1516948
+reservoirs	analog	1516948
+towers	digital	1516948
+tp2	analog	1516948
+tp3	analog	1516948

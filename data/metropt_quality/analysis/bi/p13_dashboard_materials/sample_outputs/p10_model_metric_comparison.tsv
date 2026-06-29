@@ -1,0 +1,13 @@
+source_type	feature_source	model_name	status	reason	precision	recall	f1	pr_auc	false_alarms_per_day	lead_time_model	detected_windows	mean_lead_time_hours
+csv_derived	data/metropt_quality/analysis/models/p9_window_features_1min.parquet	isolation_forest	trained		0.024267410571012418	0.961839530332681	0.047340412723638904	0.0764518041873646	627.3650793650794			
+csv_derived	data/metropt_quality/analysis/models/p9_window_features_1min.parquet	numpy_logistic_regression	trained		0.0024102523906568427	0.12035225048923678	0.00472586160525608	0.007497791448784992	808.0793650793651	numpy_logistic_regression	1	16.933333333333334
+csv_derived	data/metropt_quality/analysis/models/p9_window_features_1min.parquet	random_forest	trained		0.006148440931049627	0.0273972602739726	0.010043041606886658	0.008592847610451634	71.84126984126983			
+csv_derived	data/metropt_quality/analysis/models/p9_window_features_1min.parquet	robust_anomaly_score	trained		0.030268953237747167	0.9481409001956947	0.05866505221734524	0.12749648936654925	492.76190476190476			
+warehouse_derived	data/metropt_quality/analysis/models/p9_window_features_1min_warehouse.parquet	isolation_forest	trained		0.022631904794661897	0.9657534246575342	0.044227365402280824	0.0698019401494058	676.5714285714286			
+warehouse_derived	data/metropt_quality/analysis/models/p9_window_features_1min_warehouse.parquet	numpy_logistic_regression	trained		0.0024102523906568427	0.12035225048923678	0.00472586160525608	0.007497780097422789	808.0793650793651	numpy_logistic_regression	1	16.933333333333334
+warehouse_derived	data/metropt_quality/analysis/models/p9_window_features_1min_warehouse.parquet	random_forest	trained		0.006846081208687441	0.02837573385518591	0.01103081019399011	0.008944782886849962	66.77777777777777			
+warehouse_derived	data/metropt_quality/analysis/models/p9_window_features_1min_warehouse.parquet	robust_anomaly_score	trained		0.030268953237747167	0.9481409001956947	0.05866505221734524	0.12749640360177622	492.76190476190476			
+warehouse_minus_csv	metric_delta	isolation_forest	delta		-0.001635505776350521	0.003913894324853229	-0.0031130473213580798	-0.006649864037958794	49.20634920634916			
+warehouse_minus_csv	metric_delta	numpy_logistic_regression	delta		0.0	0.0	0.0	-1.1351362202635662e-08	0.0	numpy_logistic_regression	0.0	0.0
+warehouse_minus_csv	metric_delta	random_forest	delta		0.000697640277637814	0.0009784735812133072	0.0009877685871034526	0.00035193527639832724	-5.063492063492063			
+warehouse_minus_csv	metric_delta	robust_anomaly_score	delta		0.0	0.0	0.0	-8.576477303345875e-08	0.0			

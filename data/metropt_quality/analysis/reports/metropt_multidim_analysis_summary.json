@@ -1,0 +1,1427 @@
+{
+  "active_day_count": 212,
+  "attention_sensor_reasons": {
+    "h1": "failure-window mean shift -7.682221; std 3.333200",
+    "oil_temperature": "failure-window mean shift 13.214833; std 6.516261",
+    "tp2": "failure-window mean shift 6.883500; std 3.250930"
+  },
+  "attention_sensors": [
+    "oil_temperature",
+    "h1",
+    "tp2"
+  ],
+  "correlation_columns": [
+    "avg_tp2",
+    "avg_tp3",
+    "avg_h1",
+    "avg_dv_pressure",
+    "avg_reservoirs",
+    "avg_oil_temperature",
+    "avg_motor_current"
+  ],
+  "daily_samples": [
+    {
+      "dt": "2020-02-01",
+      "failure_sample_count": 0,
+      "sample_count": 7144
+    },
+    {
+      "dt": "2020-02-02",
+      "failure_sample_count": 0,
+      "sample_count": 7031
+    },
+    {
+      "dt": "2020-02-03",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-02-04",
+      "failure_sample_count": 0,
+      "sample_count": 8717
+    },
+    {
+      "dt": "2020-02-05",
+      "failure_sample_count": 0,
+      "sample_count": 7437
+    },
+    {
+      "dt": "2020-02-06",
+      "failure_sample_count": 0,
+      "sample_count": 4939
+    },
+    {
+      "dt": "2020-02-07",
+      "failure_sample_count": 0,
+      "sample_count": 7052
+    },
+    {
+      "dt": "2020-02-08",
+      "failure_sample_count": 0,
+      "sample_count": 8689
+    },
+    {
+      "dt": "2020-02-09",
+      "failure_sample_count": 0,
+      "sample_count": 7279
+    },
+    {
+      "dt": "2020-02-10",
+      "failure_sample_count": 0,
+      "sample_count": 7468
+    },
+    {
+      "dt": "2020-02-11",
+      "failure_sample_count": 0,
+      "sample_count": 7431
+    },
+    {
+      "dt": "2020-02-12",
+      "failure_sample_count": 0,
+      "sample_count": 7353
+    },
+    {
+      "dt": "2020-02-13",
+      "failure_sample_count": 0,
+      "sample_count": 7528
+    },
+    {
+      "dt": "2020-02-14",
+      "failure_sample_count": 0,
+      "sample_count": 6932
+    },
+    {
+      "dt": "2020-02-15",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-02-16",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-02-17",
+      "failure_sample_count": 0,
+      "sample_count": 7095
+    },
+    {
+      "dt": "2020-02-18",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-02-19",
+      "failure_sample_count": 0,
+      "sample_count": 7225
+    },
+    {
+      "dt": "2020-02-20",
+      "failure_sample_count": 0,
+      "sample_count": 7113
+    },
+    {
+      "dt": "2020-02-21",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-02-22",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-02-23",
+      "failure_sample_count": 0,
+      "sample_count": 7105
+    },
+    {
+      "dt": "2020-02-24",
+      "failure_sample_count": 0,
+      "sample_count": 5893
+    },
+    {
+      "dt": "2020-02-25",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-02-26",
+      "failure_sample_count": 0,
+      "sample_count": 7244
+    },
+    {
+      "dt": "2020-02-27",
+      "failure_sample_count": 0,
+      "sample_count": 8464
+    },
+    {
+      "dt": "2020-02-28",
+      "failure_sample_count": 0,
+      "sample_count": 8699
+    },
+    {
+      "dt": "2020-03-01",
+      "failure_sample_count": 0,
+      "sample_count": 7263
+    },
+    {
+      "dt": "2020-03-02",
+      "failure_sample_count": 0,
+      "sample_count": 7570
+    },
+    {
+      "dt": "2020-03-03",
+      "failure_sample_count": 0,
+      "sample_count": 7252
+    },
+    {
+      "dt": "2020-03-04",
+      "failure_sample_count": 0,
+      "sample_count": 8668
+    },
+    {
+      "dt": "2020-03-05",
+      "failure_sample_count": 0,
+      "sample_count": 8691
+    },
+    {
+      "dt": "2020-03-06",
+      "failure_sample_count": 0,
+      "sample_count": 7557
+    },
+    {
+      "dt": "2020-03-07",
+      "failure_sample_count": 0,
+      "sample_count": 3043
+    },
+    {
+      "dt": "2020-03-08",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-03-09",
+      "failure_sample_count": 0,
+      "sample_count": 7502
+    },
+    {
+      "dt": "2020-03-10",
+      "failure_sample_count": 0,
+      "sample_count": 8076
+    },
+    {
+      "dt": "2020-03-11",
+      "failure_sample_count": 0,
+      "sample_count": 5226
+    },
+    {
+      "dt": "2020-03-12",
+      "failure_sample_count": 0,
+      "sample_count": 8202
+    },
+    {
+      "dt": "2020-03-13",
+      "failure_sample_count": 0,
+      "sample_count": 8700
+    },
+    {
+      "dt": "2020-03-14",
+      "failure_sample_count": 0,
+      "sample_count": 6990
+    },
+    {
+      "dt": "2020-03-15",
+      "failure_sample_count": 0,
+      "sample_count": 3746
+    },
+    {
+      "dt": "2020-03-16",
+      "failure_sample_count": 0,
+      "sample_count": 7072
+    },
+    {
+      "dt": "2020-03-17",
+      "failure_sample_count": 0,
+      "sample_count": 8551
+    },
+    {
+      "dt": "2020-03-18",
+      "failure_sample_count": 0,
+      "sample_count": 8717
+    },
+    {
+      "dt": "2020-03-19",
+      "failure_sample_count": 0,
+      "sample_count": 7668
+    },
+    {
+      "dt": "2020-03-20",
+      "failure_sample_count": 0,
+      "sample_count": 6359
+    },
+    {
+      "dt": "2020-03-21",
+      "failure_sample_count": 0,
+      "sample_count": 8255
+    },
+    {
+      "dt": "2020-03-22",
+      "failure_sample_count": 0,
+      "sample_count": 8717
+    },
+    {
+      "dt": "2020-03-23",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-03-24",
+      "failure_sample_count": 0,
+      "sample_count": 7684
+    },
+    {
+      "dt": "2020-03-25",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-03-26",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-03-27",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-03-28",
+      "failure_sample_count": 0,
+      "sample_count": 3536
+    },
+    {
+      "dt": "2020-03-29",
+      "failure_sample_count": 0,
+      "sample_count": 7199
+    },
+    {
+      "dt": "2020-03-30",
+      "failure_sample_count": 0,
+      "sample_count": 5907
+    },
+    {
+      "dt": "2020-03-31",
+      "failure_sample_count": 0,
+      "sample_count": 8717
+    },
+    {
+      "dt": "2020-04-01",
+      "failure_sample_count": 0,
+      "sample_count": 4816
+    },
+    {
+      "dt": "2020-04-02",
+      "failure_sample_count": 0,
+      "sample_count": 3853
+    },
+    {
+      "dt": "2020-04-03",
+      "failure_sample_count": 0,
+      "sample_count": 7275
+    },
+    {
+      "dt": "2020-04-04",
+      "failure_sample_count": 0,
+      "sample_count": 7794
+    },
+    {
+      "dt": "2020-04-05",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-04-06",
+      "failure_sample_count": 0,
+      "sample_count": 7045
+    },
+    {
+      "dt": "2020-04-07",
+      "failure_sample_count": 0,
+      "sample_count": 7989
+    },
+    {
+      "dt": "2020-04-08",
+      "failure_sample_count": 0,
+      "sample_count": 7155
+    },
+    {
+      "dt": "2020-04-09",
+      "failure_sample_count": 0,
+      "sample_count": 6962
+    },
+    {
+      "dt": "2020-04-10",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-04-11",
+      "failure_sample_count": 0,
+      "sample_count": 7229
+    },
+    {
+      "dt": "2020-04-12",
+      "failure_sample_count": 0,
+      "sample_count": 7125
+    },
+    {
+      "dt": "2020-04-13",
+      "failure_sample_count": 0,
+      "sample_count": 3501
+    },
+    {
+      "dt": "2020-04-14",
+      "failure_sample_count": 0,
+      "sample_count": 6329
+    },
+    {
+      "dt": "2020-04-15",
+      "failure_sample_count": 0,
+      "sample_count": 8433
+    },
+    {
+      "dt": "2020-04-16",
+      "failure_sample_count": 0,
+      "sample_count": 8027
+    },
+    {
+      "dt": "2020-04-17",
+      "failure_sample_count": 0,
+      "sample_count": 6301
+    },
+    {
+      "dt": "2020-04-18",
+      "failure_sample_count": 8663,
+      "sample_count": 8663
+    },
+    {
+      "dt": "2020-04-19",
+      "failure_sample_count": 0,
+      "sample_count": 8555
+    },
+    {
+      "dt": "2020-04-20",
+      "failure_sample_count": 0,
+      "sample_count": 7477
+    },
+    {
+      "dt": "2020-04-21",
+      "failure_sample_count": 0,
+      "sample_count": 6802
+    },
+    {
+      "dt": "2020-04-22",
+      "failure_sample_count": 0,
+      "sample_count": 8256
+    },
+    {
+      "dt": "2020-04-23",
+      "failure_sample_count": 0,
+      "sample_count": 7369
+    },
+    {
+      "dt": "2020-04-24",
+      "failure_sample_count": 0,
+      "sample_count": 8423
+    },
+    {
+      "dt": "2020-04-25",
+      "failure_sample_count": 0,
+      "sample_count": 429
+    },
+    {
+      "dt": "2020-04-27",
+      "failure_sample_count": 0,
+      "sample_count": 6778
+    },
+    {
+      "dt": "2020-04-28",
+      "failure_sample_count": 0,
+      "sample_count": 6809
+    },
+    {
+      "dt": "2020-04-29",
+      "failure_sample_count": 0,
+      "sample_count": 8017
+    },
+    {
+      "dt": "2020-04-30",
+      "failure_sample_count": 0,
+      "sample_count": 3890
+    },
+    {
+      "dt": "2020-05-01",
+      "failure_sample_count": 0,
+      "sample_count": 962
+    },
+    {
+      "dt": "2020-05-02",
+      "failure_sample_count": 0,
+      "sample_count": 8441
+    },
+    {
+      "dt": "2020-05-03",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-05-04",
+      "failure_sample_count": 0,
+      "sample_count": 7427
+    },
+    {
+      "dt": "2020-05-05",
+      "failure_sample_count": 0,
+      "sample_count": 7382
+    },
+    {
+      "dt": "2020-05-06",
+      "failure_sample_count": 0,
+      "sample_count": 7942
+    },
+    {
+      "dt": "2020-05-07",
+      "failure_sample_count": 0,
+      "sample_count": 8024
+    },
+    {
+      "dt": "2020-05-08",
+      "failure_sample_count": 0,
+      "sample_count": 8118
+    },
+    {
+      "dt": "2020-05-09",
+      "failure_sample_count": 0,
+      "sample_count": 7657
+    },
+    {
+      "dt": "2020-05-10",
+      "failure_sample_count": 0,
+      "sample_count": 329
+    },
+    {
+      "dt": "2020-05-11",
+      "failure_sample_count": 0,
+      "sample_count": 7260
+    },
+    {
+      "dt": "2020-05-12",
+      "failure_sample_count": 0,
+      "sample_count": 8518
+    },
+    {
+      "dt": "2020-05-13",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-05-14",
+      "failure_sample_count": 0,
+      "sample_count": 6342
+    },
+    {
+      "dt": "2020-05-15",
+      "failure_sample_count": 0,
+      "sample_count": 8363
+    },
+    {
+      "dt": "2020-05-16",
+      "failure_sample_count": 0,
+      "sample_count": 8615
+    },
+    {
+      "dt": "2020-05-17",
+      "failure_sample_count": 0,
+      "sample_count": 2847
+    },
+    {
+      "dt": "2020-05-18",
+      "failure_sample_count": 0,
+      "sample_count": 8435
+    },
+    {
+      "dt": "2020-05-19",
+      "failure_sample_count": 0,
+      "sample_count": 7410
+    },
+    {
+      "dt": "2020-05-20",
+      "failure_sample_count": 0,
+      "sample_count": 7462
+    },
+    {
+      "dt": "2020-05-21",
+      "failure_sample_count": 0,
+      "sample_count": 6516
+    },
+    {
+      "dt": "2020-05-22",
+      "failure_sample_count": 0,
+      "sample_count": 7233
+    },
+    {
+      "dt": "2020-05-23",
+      "failure_sample_count": 0,
+      "sample_count": 8458
+    },
+    {
+      "dt": "2020-05-24",
+      "failure_sample_count": 0,
+      "sample_count": 210
+    },
+    {
+      "dt": "2020-05-25",
+      "failure_sample_count": 0,
+      "sample_count": 6902
+    },
+    {
+      "dt": "2020-05-26",
+      "failure_sample_count": 0,
+      "sample_count": 5606
+    },
+    {
+      "dt": "2020-05-27",
+      "failure_sample_count": 0,
+      "sample_count": 7096
+    },
+    {
+      "dt": "2020-05-28",
+      "failure_sample_count": 0,
+      "sample_count": 8436
+    },
+    {
+      "dt": "2020-05-29",
+      "failure_sample_count": 181,
+      "sample_count": 7466
+    },
+    {
+      "dt": "2020-05-30",
+      "failure_sample_count": 2179,
+      "sample_count": 8617
+    },
+    {
+      "dt": "2020-05-31",
+      "failure_sample_count": 0,
+      "sample_count": 7294
+    },
+    {
+      "dt": "2020-06-01",
+      "failure_sample_count": 0,
+      "sample_count": 8523
+    },
+    {
+      "dt": "2020-06-02",
+      "failure_sample_count": 0,
+      "sample_count": 5131
+    },
+    {
+      "dt": "2020-06-03",
+      "failure_sample_count": 0,
+      "sample_count": 7976
+    },
+    {
+      "dt": "2020-06-04",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-06-05",
+      "failure_sample_count": 5084,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-06-06",
+      "failure_sample_count": 7343,
+      "sample_count": 7343
+    },
+    {
+      "dt": "2020-06-07",
+      "failure_sample_count": 4888,
+      "sample_count": 4888
+    },
+    {
+      "dt": "2020-06-08",
+      "failure_sample_count": 0,
+      "sample_count": 4232
+    },
+    {
+      "dt": "2020-06-09",
+      "failure_sample_count": 0,
+      "sample_count": 7286
+    },
+    {
+      "dt": "2020-06-10",
+      "failure_sample_count": 0,
+      "sample_count": 7919
+    },
+    {
+      "dt": "2020-06-11",
+      "failure_sample_count": 0,
+      "sample_count": 8398
+    },
+    {
+      "dt": "2020-06-12",
+      "failure_sample_count": 0,
+      "sample_count": 7245
+    },
+    {
+      "dt": "2020-06-13",
+      "failure_sample_count": 0,
+      "sample_count": 8717
+    },
+    {
+      "dt": "2020-06-14",
+      "failure_sample_count": 0,
+      "sample_count": 8684
+    },
+    {
+      "dt": "2020-06-15",
+      "failure_sample_count": 0,
+      "sample_count": 8359
+    },
+    {
+      "dt": "2020-06-16",
+      "failure_sample_count": 0,
+      "sample_count": 8235
+    },
+    {
+      "dt": "2020-06-17",
+      "failure_sample_count": 0,
+      "sample_count": 5240
+    },
+    {
+      "dt": "2020-06-18",
+      "failure_sample_count": 0,
+      "sample_count": 6912
+    },
+    {
+      "dt": "2020-06-19",
+      "failure_sample_count": 0,
+      "sample_count": 8656
+    },
+    {
+      "dt": "2020-06-20",
+      "failure_sample_count": 0,
+      "sample_count": 8506
+    },
+    {
+      "dt": "2020-06-21",
+      "failure_sample_count": 0,
+      "sample_count": 7422
+    },
+    {
+      "dt": "2020-06-22",
+      "failure_sample_count": 0,
+      "sample_count": 7274
+    },
+    {
+      "dt": "2020-06-23",
+      "failure_sample_count": 0,
+      "sample_count": 7159
+    },
+    {
+      "dt": "2020-06-24",
+      "failure_sample_count": 0,
+      "sample_count": 7162
+    },
+    {
+      "dt": "2020-06-25",
+      "failure_sample_count": 0,
+      "sample_count": 8272
+    },
+    {
+      "dt": "2020-06-26",
+      "failure_sample_count": 0,
+      "sample_count": 8678
+    },
+    {
+      "dt": "2020-06-27",
+      "failure_sample_count": 0,
+      "sample_count": 3183
+    },
+    {
+      "dt": "2020-06-28",
+      "failure_sample_count": 0,
+      "sample_count": 317
+    },
+    {
+      "dt": "2020-06-29",
+      "failure_sample_count": 0,
+      "sample_count": 8677
+    },
+    {
+      "dt": "2020-06-30",
+      "failure_sample_count": 0,
+      "sample_count": 8688
+    },
+    {
+      "dt": "2020-07-01",
+      "failure_sample_count": 0,
+      "sample_count": 8715
+    },
+    {
+      "dt": "2020-07-02",
+      "failure_sample_count": 0,
+      "sample_count": 8717
+    },
+    {
+      "dt": "2020-07-03",
+      "failure_sample_count": 0,
+      "sample_count": 8093
+    },
+    {
+      "dt": "2020-07-04",
+      "failure_sample_count": 0,
+      "sample_count": 8693
+    },
+    {
+      "dt": "2020-07-05",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-07-06",
+      "failure_sample_count": 0,
+      "sample_count": 5906
+    },
+    {
+      "dt": "2020-07-07",
+      "failure_sample_count": 0,
+      "sample_count": 4001
+    },
+    {
+      "dt": "2020-07-08",
+      "failure_sample_count": 0,
+      "sample_count": 3107
+    },
+    {
+      "dt": "2020-07-09",
+      "failure_sample_count": 0,
+      "sample_count": 7518
+    },
+    {
+      "dt": "2020-07-10",
+      "failure_sample_count": 0,
+      "sample_count": 7157
+    },
+    {
+      "dt": "2020-07-11",
+      "failure_sample_count": 0,
+      "sample_count": 5253
+    },
+    {
+      "dt": "2020-07-12",
+      "failure_sample_count": 0,
+      "sample_count": 5609
+    },
+    {
+      "dt": "2020-07-13",
+      "failure_sample_count": 0,
+      "sample_count": 7434
+    },
+    {
+      "dt": "2020-07-14",
+      "failure_sample_count": 0,
+      "sample_count": 3563
+    },
+    {
+      "dt": "2020-07-15",
+      "failure_sample_count": 1622,
+      "sample_count": 8661
+    },
+    {
+      "dt": "2020-07-16",
+      "failure_sample_count": 0,
+      "sample_count": 8642
+    },
+    {
+      "dt": "2020-07-17",
+      "failure_sample_count": 0,
+      "sample_count": 7279
+    },
+    {
+      "dt": "2020-07-18",
+      "failure_sample_count": 0,
+      "sample_count": 8697
+    },
+    {
+      "dt": "2020-07-19",
+      "failure_sample_count": 0,
+      "sample_count": 8677
+    },
+    {
+      "dt": "2020-07-20",
+      "failure_sample_count": 0,
+      "sample_count": 8688
+    },
+    {
+      "dt": "2020-07-21",
+      "failure_sample_count": 0,
+      "sample_count": 8163
+    },
+    {
+      "dt": "2020-07-22",
+      "failure_sample_count": 0,
+      "sample_count": 8305
+    },
+    {
+      "dt": "2020-07-23",
+      "failure_sample_count": 0,
+      "sample_count": 7245
+    },
+    {
+      "dt": "2020-07-24",
+      "failure_sample_count": 0,
+      "sample_count": 6899
+    },
+    {
+      "dt": "2020-07-25",
+      "failure_sample_count": 0,
+      "sample_count": 6119
+    },
+    {
+      "dt": "2020-07-26",
+      "failure_sample_count": 0,
+      "sample_count": 6448
+    },
+    {
+      "dt": "2020-07-27",
+      "failure_sample_count": 0,
+      "sample_count": 7349
+    },
+    {
+      "dt": "2020-07-28",
+      "failure_sample_count": 0,
+      "sample_count": 6785
+    },
+    {
+      "dt": "2020-07-29",
+      "failure_sample_count": 0,
+      "sample_count": 7802
+    },
+    {
+      "dt": "2020-07-30",
+      "failure_sample_count": 0,
+      "sample_count": 7278
+    },
+    {
+      "dt": "2020-07-31",
+      "failure_sample_count": 0,
+      "sample_count": 7119
+    },
+    {
+      "dt": "2020-08-01",
+      "failure_sample_count": 0,
+      "sample_count": 8684
+    },
+    {
+      "dt": "2020-08-02",
+      "failure_sample_count": 0,
+      "sample_count": 7473
+    },
+    {
+      "dt": "2020-08-03",
+      "failure_sample_count": 0,
+      "sample_count": 3947
+    },
+    {
+      "dt": "2020-08-04",
+      "failure_sample_count": 0,
+      "sample_count": 2800
+    },
+    {
+      "dt": "2020-08-05",
+      "failure_sample_count": 0,
+      "sample_count": 5672
+    },
+    {
+      "dt": "2020-08-06",
+      "failure_sample_count": 0,
+      "sample_count": 8653
+    },
+    {
+      "dt": "2020-08-07",
+      "failure_sample_count": 0,
+      "sample_count": 8708
+    },
+    {
+      "dt": "2020-08-08",
+      "failure_sample_count": 0,
+      "sample_count": 7909
+    },
+    {
+      "dt": "2020-08-09",
+      "failure_sample_count": 0,
+      "sample_count": 7688
+    },
+    {
+      "dt": "2020-08-10",
+      "failure_sample_count": 0,
+      "sample_count": 8716
+    },
+    {
+      "dt": "2020-08-11",
+      "failure_sample_count": 0,
+      "sample_count": 7122
+    },
+    {
+      "dt": "2020-08-12",
+      "failure_sample_count": 0,
+      "sample_count": 8512
+    },
+    {
+      "dt": "2020-08-13",
+      "failure_sample_count": 0,
+      "sample_count": 8676
+    },
+    {
+      "dt": "2020-08-14",
+      "failure_sample_count": 0,
+      "sample_count": 7200
+    },
+    {
+      "dt": "2020-08-15",
+      "failure_sample_count": 0,
+      "sample_count": 6868
+    },
+    {
+      "dt": "2020-08-16",
+      "failure_sample_count": 0,
+      "sample_count": 6209
+    },
+    {
+      "dt": "2020-08-17",
+      "failure_sample_count": 0,
+      "sample_count": 8116
+    },
+    {
+      "dt": "2020-08-18",
+      "failure_sample_count": 0,
+      "sample_count": 8207
+    },
+    {
+      "dt": "2020-08-19",
+      "failure_sample_count": 0,
+      "sample_count": 7392
+    },
+    {
+      "dt": "2020-08-20",
+      "failure_sample_count": 0,
+      "sample_count": 5742
+    },
+    {
+      "dt": "2020-08-21",
+      "failure_sample_count": 0,
+      "sample_count": 7380
+    },
+    {
+      "dt": "2020-08-22",
+      "failure_sample_count": 0,
+      "sample_count": 6780
+    },
+    {
+      "dt": "2020-08-23",
+      "failure_sample_count": 0,
+      "sample_count": 1871
+    },
+    {
+      "dt": "2020-08-24",
+      "failure_sample_count": 0,
+      "sample_count": 8659
+    },
+    {
+      "dt": "2020-08-25",
+      "failure_sample_count": 0,
+      "sample_count": 6660
+    },
+    {
+      "dt": "2020-08-26",
+      "failure_sample_count": 0,
+      "sample_count": 7936
+    },
+    {
+      "dt": "2020-08-27",
+      "failure_sample_count": 0,
+      "sample_count": 7334
+    },
+    {
+      "dt": "2020-08-28",
+      "failure_sample_count": 0,
+      "sample_count": 8190
+    },
+    {
+      "dt": "2020-08-29",
+      "failure_sample_count": 0,
+      "sample_count": 7131
+    },
+    {
+      "dt": "2020-08-30",
+      "failure_sample_count": 0,
+      "sample_count": 7354
+    },
+    {
+      "dt": "2020-08-31",
+      "failure_sample_count": 0,
+      "sample_count": 6845
+    },
+    {
+      "dt": "2020-09-01",
+      "failure_sample_count": 0,
+      "sample_count": 530
+    }
+  ],
+  "failure_contrast_top": [
+    {
+      "avg_delta_failure_minus_normal": 13.214832644584092,
+      "failure_avg": 75.59801902536739,
+      "failure_count": 29960,
+      "normal_avg": 62.3831863807833,
+      "normal_count": 1486988,
+      "sensor_name": "oil_temperature",
+      "sensor_type": "analog"
+    },
+    {
+      "avg_delta_failure_minus_normal": -7.682220954873117,
+      "failure_avg": 0.037659212283045,
+      "failure_count": 29960,
+      "normal_avg": 7.719880167156162,
+      "normal_count": 1486988,
+      "sensor_name": "h1",
+      "sensor_type": "analog"
+    },
+    {
+      "avg_delta_failure_minus_normal": 6.8834997102802165,
+      "failure_avg": 8.115375300400547,
+      "failure_count": 29960,
+      "normal_avg": 1.2318755901203309,
+      "normal_count": 1486988,
+      "sensor_name": "tp2",
+      "sensor_type": "analog"
+    },
+    {
+      "avg_delta_failure_minus_normal": 3.552239921403664,
+      "failure_avg": 5.532253337783713,
+      "failure_count": 29960,
+      "normal_avg": 1.9800134163800487,
+      "normal_count": 1486988,
+      "sensor_name": "motor_current",
+      "sensor_type": "analog"
+    },
+    {
+      "avg_delta_failure_minus_normal": 1.8402027024732572,
+      "failure_avg": 1.859814552736986,
+      "failure_count": 29960,
+      "normal_avg": 0.01961185026372881,
+      "normal_count": 1486988,
+      "sensor_name": "dv_pressure",
+      "sensor_type": "analog"
+    },
+    {
+      "avg_delta_failure_minus_normal": 0.8510917614544136,
+      "failure_avg": 0.9948931909212283,
+      "failure_count": 29960,
+      "normal_avg": 0.1438014294668148,
+      "normal_count": 1486988,
+      "sensor_name": "dv_electric",
+      "sensor_type": "digital"
+    },
+    {
+      "avg_delta_failure_minus_normal": -0.8492912417899331,
+      "failure_avg": 0.0044392523364485985,
+      "failure_count": 29960,
+      "normal_avg": 0.8537304941263817,
+      "normal_count": 1486988,
+      "sensor_name": "comp",
+      "sensor_type": "digital"
+    },
+    {
+      "avg_delta_failure_minus_normal": -0.8449119192937192,
+      "failure_avg": 0.0044392523364485985,
+      "failure_count": 29960,
+      "normal_avg": 0.8493511716301678,
+      "normal_count": 1486988,
+      "sensor_name": "mpg",
+      "sensor_type": "digital"
+    },
+    {
+      "avg_delta_failure_minus_normal": -0.7104656245038097,
+      "failure_avg": 8.288176902536717,
+      "failure_count": 29960,
+      "normal_avg": 8.998642527040527,
+      "normal_count": 1486988,
+      "sensor_name": "tp3",
+      "sensor_type": "analog"
+    },
+    {
+      "avg_delta_failure_minus_normal": -0.7095834948562114,
+      "failure_avg": 8.289664352469963,
+      "failure_count": 29960,
+      "normal_avg": 8.999247847326174,
+      "normal_count": 1486988,
+      "sensor_name": "reservoirs",
+      "sensor_type": "analog"
+    }
+  ],
+  "failure_sample_count": 29960,
+  "failure_window_rate": 0.019750182603490693,
+  "figures": [
+    "/home/common/tmp/pycharm_Design/data/metropt_quality/analysis/figures/multidim_daily_samples_failure_trend.png",
+    "/home/common/tmp/pycharm_Design/data/metropt_quality/analysis/figures/operating_state_distribution.png",
+    "/home/common/tmp/pycharm_Design/data/metropt_quality/analysis/figures/sensor_mean_volatility_ranking.png",
+    "/home/common/tmp/pycharm_Design/data/metropt_quality/analysis/figures/failure_window_sensor_contrast.png",
+    "/home/common/tmp/pycharm_Design/data/metropt_quality/analysis/figures/pressure_current_temperature_timeseries.png",
+    "/home/common/tmp/pycharm_Design/data/metropt_quality/analysis/figures/sensor_correlation_heatmap.png"
+  ],
+  "ods_row_count": 1516948,
+  "operating_state_metrics": [
+    {
+      "avg_motor_current": 7.8282366071428555,
+      "avg_oil_temperature": 58.73035714285715,
+      "avg_reservoirs": 8.102785714285714,
+      "avg_tp2": -0.013232142857142264,
+      "avg_tp3": 8.100357142857144,
+      "failure_sample_count": 0,
+      "failure_window_rate": 0.0,
+      "operating_state": "loaded",
+      "sample_count": 112
+    },
+    {
+      "avg_motor_current": 0.040952023522288425,
+      "avg_oil_temperature": 59.295185916768546,
+      "avg_reservoirs": 8.685133495778134,
+      "avg_tp2": -0.012280354644129054,
+      "avg_tp3": 8.683671732207667,
+      "failure_sample_count": 93,
+      "failure_window_rate": 0.00011218335343787695,
+      "operating_state": "stopped",
+      "sample_count": 829000
+    },
+    {
+      "avg_motor_current": 4.470799013136741,
+      "avg_oil_temperature": 66.68112642403679,
+      "avg_reservoirs": 9.347066338487474,
+      "avg_tp2": 3.0313952163023394,
+      "avg_tp3": 9.347455102669844,
+      "failure_sample_count": 29867,
+      "failure_window_rate": 0.043421687727888625,
+      "operating_state": "unloaded",
+      "sample_count": 687836
+    }
+  ],
+  "sensor_kpi": [
+    {
+      "avg_sensor_value": 0.9371066114329561,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 1.0,
+      "min_sensor_value": 0.0,
+      "sample_count": 1516948,
+      "sensor_name": "caudal_impulses",
+      "sensor_type": "digital",
+      "station_id": "electrical_control",
+      "std_sensor_value": 0.24277118670573725,
+      "unit": "binary"
+    },
+    {
+      "avg_sensor_value": 0.8369568370174851,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 1.0,
+      "min_sensor_value": 0.0,
+      "sample_count": 1516948,
+      "sensor_name": "comp",
+      "sensor_type": "digital",
+      "station_id": "electrical_control",
+      "std_sensor_value": 0.3694051704351605,
+      "unit": "binary"
+    },
+    {
+      "avg_sensor_value": 0.160610647167866,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 1.0,
+      "min_sensor_value": 0.0,
+      "sample_count": 1516948,
+      "sensor_name": "dv_electric",
+      "sensor_type": "digital",
+      "station_id": "electrical_control",
+      "std_sensor_value": 0.3671715621568243,
+      "unit": "binary"
+    },
+    {
+      "avg_sensor_value": 0.055956189664886774,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 9.844,
+      "min_sensor_value": -0.032,
+      "sample_count": 1516948,
+      "sensor_name": "dv_pressure",
+      "sensor_type": "analog",
+      "station_id": "air_pressure_path",
+      "std_sensor_value": 0.38240154603542714,
+      "unit": "bar"
+    },
+    {
+      "avg_sensor_value": 7.568154900497038,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 10.288,
+      "min_sensor_value": -0.0360000000000013,
+      "sample_count": 1516948,
+      "sensor_name": "h1",
+      "sensor_type": "analog",
+      "station_id": "air_pressure_path",
+      "std_sensor_value": 3.3331995652894353,
+      "unit": "bar"
+    },
+    {
+      "avg_sensor_value": 0.0034200249448234216,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 1.0,
+      "min_sensor_value": 0.0,
+      "sample_count": 1516948,
+      "sensor_name": "lps",
+      "sensor_type": "digital",
+      "station_id": "electrical_control",
+      "std_sensor_value": 0.058380909731130276,
+      "unit": "binary"
+    },
+    {
+      "avg_sensor_value": 2.050170803478652,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 9.295,
+      "min_sensor_value": 0.0199999999999995,
+      "sample_count": 1516948,
+      "sensor_name": "motor_current",
+      "sensor_type": "analog",
+      "station_id": "compressor_motor",
+      "std_sensor_value": 2.302053413886755,
+      "unit": "ampere"
+    },
+    {
+      "avg_sensor_value": 0.8326640069402511,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 1.0,
+      "min_sensor_value": 0.0,
+      "sample_count": 1516948,
+      "sensor_name": "mpg",
+      "sensor_type": "digital",
+      "station_id": "electrical_control",
+      "std_sensor_value": 0.3732757028504325,
+      "unit": "binary"
+    },
+    {
+      "avg_sensor_value": 0.904155580810944,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 1.0,
+      "min_sensor_value": 0.0,
+      "sample_count": 1516948,
+      "sensor_name": "oil_level",
+      "sensor_type": "digital",
+      "station_id": "electrical_control",
+      "std_sensor_value": 0.29437785858676146,
+      "unit": "binary"
+    },
+    {
+      "avg_sensor_value": 62.64418173858801,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 89.05000000000001,
+      "min_sensor_value": 15.400000000000006,
+      "sample_count": 1516948,
+      "sensor_name": "oil_temperature",
+      "sensor_type": "analog",
+      "station_id": "compressor_motor",
+      "std_sensor_value": 6.51626108944489,
+      "unit": "celsius"
+    },
+    {
+      "avg_sensor_value": 0.9914367532703824,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 1.0,
+      "min_sensor_value": 0.0,
+      "sample_count": 1516948,
+      "sensor_name": "pressure_switch",
+      "sensor_type": "digital",
+      "station_id": "electrical_control",
+      "std_sensor_value": 0.09214077887547228,
+      "unit": "binary"
+    },
+    {
+      "avg_sensor_value": 8.98523344373035,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 10.3,
+      "min_sensor_value": 0.7119999999999997,
+      "sample_count": 1516948,
+      "sensor_name": "reservoirs",
+      "sensor_type": "analog",
+      "station_id": "air_pressure_path",
+      "std_sensor_value": 0.6383070418596155,
+      "unit": "bar"
+    },
+    {
+      "avg_sensor_value": 0.9198482742981302,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 1.0,
+      "min_sensor_value": 0.0,
+      "sample_count": 1516948,
+      "sensor_name": "towers",
+      "sensor_type": "digital",
+      "station_id": "electrical_control",
+      "std_sensor_value": 0.2715280375419618,
+      "unit": "binary"
+    },
+    {
+      "avg_sensor_value": 1.3678259663490997,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 10.676,
+      "min_sensor_value": -0.032,
+      "sample_count": 1516948,
+      "sensor_name": "tp2",
+      "sensor_type": "analog",
+      "station_id": "air_pressure_path",
+      "std_sensor_value": 3.250929680703754,
+      "unit": "bar"
+    },
+    {
+      "avg_sensor_value": 8.98461070122307,
+      "failure_sample_count": 29960,
+      "failure_window_rate": 0.019750182603490693,
+      "max_sensor_value": 10.302,
+      "min_sensor_value": 0.7300000000000004,
+      "sample_count": 1516948,
+      "sensor_name": "tp3",
+      "sensor_type": "analog",
+      "station_id": "air_pressure_path",
+      "std_sensor_value": 0.639095086308953,
+      "unit": "bar"
+    }
+  ],
+  "sensor_kpi_row_count": 15,
+  "time_range": {
+    "max_event_time": "2020-08-31 12:59:50",
+    "min_event_time": "2020-01-31 08:00:00"
+  },
+  "window_kpi_row_count": 269991,
+  "window_time_series_downsample_step": 50,
+  "window_time_series_original_rows": 252720
+}
